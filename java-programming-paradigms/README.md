@@ -1,40 +1,45 @@
 # Paradigme de Programare — Laboratoare Java
 
-Acest repository reunește exercițiile Java realizate în cadrul laboratoarelor universitare. Fiecare laborator are propriul folder și un fișier `README.md` în limba română, cu inventarul fișierelor și indicații generale de rulare.
+Acest repository conține exerciții practice realizate în Java în cadrul cursului universitar de **Paradigme de Programare**. Laboratoarele urmăresc aplicarea conceptelor fundamentale ale limbajului Java și familiarizarea cu diferite tehnici de programare.
 
 ## Laboratoare
 
-| Folder | Conținut | Fișiere Java |
-|---|---|---:|
-| [`lab-01-proiectare-software`](lab-01-proiectare-software/) | Laboratorul 1 — Proiectare Software | 5 |
-| [`lab-02-proiectare-software`](lab-02-proiectare-software/) | Laboratorul 2 — Proiectare Software | 7 |
-| [`lab-03-paradigme`](lab-03-paradigme/) | Laboratorul 3 — Paradigme de Programare | 3 |
-| [`lab-04-paradigme`](lab-04-paradigme/) | Laboratorul 4 — Paradigme de Programare | 5 |
-| [`lab-05-software`](lab-05-software/) | Laboratorul 5 — Proiectare Software | 2 |
-| [`lab-06-paradigme`](lab-06-paradigme/) | Laboratorul 6 — Paradigme de Programare | 8 |
-| [`lab-07-paradigme`](lab-07-paradigme/) | Laboratorul 7 — Paradigme de Programare | 3 |
-| [`lab-08-paradigme`](lab-08-paradigme/) | Laboratorul 8 — Paradigme de Programare | 2 |
-| [`lab-09-paradigme`](lab-09-paradigme/) | Laboratorul 9 — Paradigme de Programare | 3 |
-| [`lab-10-paradigme`](lab-10-paradigme/) | Laboratorul 10 — Paradigme de Programare | 8 |
-| [`lab-11-paradigme`](lab-11-paradigme/) | Laboratorul 11 — Paradigme de Programare | 11 |
+| Laborator | Tematică |
+|---|---|
+| [Laboratorul 1](lab-01/) | Clase și forme geometrice |
+| [Laboratorul 2](lab-02/) | Liste simplu și dublu înlănțuite |
+| [Laboratorul 3](lab-03/) | Generarea parolelor și prelucrarea șirurilor |
+| [Laboratorul 4](lab-04/) | Colecții, studenți și fișiere |
+| [Laboratorul 5](lab-05/) | Prelucrarea textului și lucrul cu fișiere |
+| [Laboratorul 6](lab-06/) | Calculatoare și teste unitare |
+| [Laboratorul 7](lab-07/) | Clase pentru studenți și grupuri |
+| [Laboratorul 8](lab-08/) | Citirea și scrierea fișierelor Excel |
+| [Laboratorul 9](lab-09/) | Java Streams și expresii lambda |
+| [Laboratorul 10](lab-10/) | Strategii de procesare a datelor despre pași |
+| [Laboratorul 11](lab-11/) | Strategii de procesare și șabloane de proiectare |
 
 ## Tehnologii și concepte
 
 - Java
-- Programare orientată pe obiecte, acolo unde este folosită în exerciții
-- Colecții, fișiere, teste și alte concepte în funcție de laborator
+- Programare orientată pe obiecte
+- Clase, moștenire și interfețe
+- Colecții și structuri de date
+- Citirea și scrierea fișierelor
+- Testare unitară cu JUnit, acolo unde este utilizată
+- Java Streams și expresii lambda
+- Procesarea fișierelor Excel
+- Șabloane de proiectare (*Design Patterns*)
 
-## Cum se folosește repository-ul
+## Cum se utilizează
 
-Deschide folderul laboratorului dorit și consultă README-ul aferent. Unele exerciții pot necesita o anumită versiune de JDK, biblioteci externe sau fișiere de intrare. Cerințele specifice trebuie verificate în codul și materialele fiecărui laborator.
+Fiecare laborator este organizat într-un director separat și conține codul sursă și, după caz, fișierele de intrare necesare.
+
+Pentru a explora exercițiile, deschide folderul laboratorului dorit într-un IDE compatibil cu Java, precum IntelliJ IDEA. Unele exerciții pot necesita biblioteci externe sau o anumită versiune a JDK.
 
 ## Context academic
 
-Acesta este un portofoliu de exerciții realizate în scop educațional, nu o colecție de aplicații prezentate ca produse de producție. Codul original a fost păstrat în măsura posibilului.
+Aceste exerciții au fost realizate în scop educațional, în timpul studiului limbajului Java. Repository-ul documentează activitatea practică desfășurată în cadrul cursului și procesul de învățare a conceptelor de programare.
 
-## Înainte de publicare
+## Observații
 
-- Verifică regulile facultății privind publicarea temelor.
-- Confirmă că toate fișierele pot fi publicate și nu conțin date personale sau informații confidențiale.
-- Deschide și rulează exercițiile importante pentru a verifica dependențele.
-- Dacă vrei să păstrezi istoricul Git original al fiecărui repository, reține că o arhivă ZIP nu include istoricul commit-urilor.
+Codul este păstrat în scop de studiu. Înainte de rulare, verifică eventualele dependențe și cerințe specifice fiecărui laborator.
